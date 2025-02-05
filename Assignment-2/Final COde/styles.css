@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header .logo img {
+    width: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-color: #6b4f47;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .hero .cta-btn {
+    background-color: #ff7043;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  #menu {
+    background-color: lightcyan;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu-item h3 {
+    color: #333;
+  }
+  
+  .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #f36f6f;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #about {
+    background-color: lightgrey;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #contact {
+    background-color: #BE9B7B;
+    color: blue;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #ff7043;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
